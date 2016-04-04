@@ -68,6 +68,7 @@ exports.initWebApp = function(options) {
         check: check,
         checkEvent: checkEvent,
         url: options.config.url,
+	proxyurl: options.config.proxyurl,
         moment: moment,
         filename: filename
       };
